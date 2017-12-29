@@ -1,4 +1,4 @@
-const sum = require('./sum.js');
+import sum from './sum.js';
 
 const total = sum(30,39);
 

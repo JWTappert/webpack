@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.js"],"names":["total","console","log"],"mappings":";;AAAA;;;;;;AAEA,IAAMA,QAAQ,mBAAI,EAAJ,EAAO,EAAP,CAAd;;AAEAC,QAAQC,GAAR,CAAYF,KAAZ","file":"index.js","sourcesContent":["import sum from './sum.js';\r\n\r\nconst total = sum(30,39);\r\n\r\nconsole.log(total);\r\n"]}
