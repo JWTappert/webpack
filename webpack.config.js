@@ -11,6 +11,9 @@ const config = {
             {
                 use: 'babel-loader',
                 test: /\.js$/
+            },
+            {
+
             }
         ]
     }
