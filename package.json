@@ -1,10 +1,10 @@
 {
-  "name": "webpack",
+  "name": "Webpack",
   "version": "1.0.0",
   "description": "deep dive into webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JWTappert/webpack/issues"
   },
-  "homepage": "https://github.com/JWTappert/webpack#readme"
+  "homepage": "https://github.com/JWTappert/webpack#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
 }
