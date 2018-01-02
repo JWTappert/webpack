@@ -1,7 +1,9 @@
-const image = document.createElement('img');
+import '../styles/image_viewer.css';
 
-image.src = 'http://lorempixel.com/400/400'
+window.onload = () => {
+    const image = document.createElement('img');
 
-const content = document.getElementsByTagName("body");
+    image.src = 'https://loremflickr.com/320/240/dog';
 
-content.appendChild(image);
+    document.body.appendChild(image);
+};

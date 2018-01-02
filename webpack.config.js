@@ -13,7 +13,8 @@ const config = {
                 test: /\.js$/
             },
             {
-
+                use: ['style-loader', 'css-loader'],
+                test: /\.css$/
             }
         ]
     }
