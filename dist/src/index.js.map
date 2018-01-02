@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/index.js"],"names":["total","console","log"],"mappings":";;AAAA;;;;AACA;;;;AAEA,IAAMA,QAAQ,mBAAI,EAAJ,EAAO,EAAP,CAAd;;AAEAC,QAAQC,GAAR,CAAYF,KAAZ","file":"index.js","sourcesContent":["import sum from './sum.js';\r\nimport './image_viewer.js';\r\n\r\nconst total = sum(30,39);\r\n\r\nconsole.log(total);\r\n"]}

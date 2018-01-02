@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/sum.js"],"names":["sum","a","b"],"mappings":";;;;;AAAA,IAAMA,MAAM,SAANA,GAAM,CAACC,CAAD,EAAGC,CAAH;AAAA,SAASD,IAAIC,CAAb;AAAA,CAAZ;;kBAEeF,G","file":"sum.js","sourcesContent":["const sum = (a,b) => a + b;\r\n\r\nexport default sum;"]}
