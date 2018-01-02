@@ -60,10 +60,10 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "dist/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -73,14 +73,25 @@
 "use strict";
 
 
+var _bigg = __webpack_require__(4);
+
+var _bigg2 = _interopRequireDefault(_bigg);
+
+var _ = __webpack_require__(3);
+
+var _2 = _interopRequireDefault(_);
+
 __webpack_require__(2);
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 window.onload = function () {
-    var image = document.createElement('img');
-
-    image.src = 'https://loremflickr.com/320/240/dog';
-
-    document.body.appendChild(image);
+    var smallImage = document.createElement('img');
+    var bigImage = document.createElement('img');
+    smallImage.src = _2.default;
+    bigImage.src = _bigg2.default;
+    document.body.appendChild(smallImage);
+    document.body.appendChild(bigImage);
 };
 
 /***/ },
@@ -107,6 +118,18 @@ exports.default = sum;
 
 /***/ },
 /* 3 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "c8db20859c3f9bfcd29e0b18b1a1032e.png";
+
+/***/ },
+/* 4 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "d9ff4454a44f4ba16b062fea946438fc.jpg";
+
+/***/ },
+/* 5 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
