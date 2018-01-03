@@ -15,15 +15,7 @@ module.exports = webpackMerge(commonConfig, {
 
     devServer: {
         historyApiFallback: true,
-        stats: 'minimal'/*,
-        TODO setup when REST service ready
-        proxy: {
-            '/api/**': {
-                target: 'http://localhost:8080/your-rest-service',
-                secure: false,
-                changeOrigin: true
-            }
-        }*/
+        stats: 'minimal'
     },
 
     plugins: [
